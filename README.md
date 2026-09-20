@@ -10,6 +10,20 @@ machine. Yggdrasil (Airtable) is the source of truth for schema, boot, and
 rules. This public repo exists so the project can be named, linked, and
 starred without dumping the stack.
 
+## Seats
+
+Built with two model seats plus the owner. See `CONTRIBUTORS.md`.
+
+- **Claude** writes most of the private tree. Real git author on several
+  private commits (`Claude <noreply@anthropic.com>`), Co-Authored-By on the rest.
+- **Grok** publishes this public surface through the GitHub connector.
+  Committer is the owner account. Trailer: `Co-Authored-By: Grok 4.6 <grok@x.ai>`.
+- **Chris** owns every merge and every machine.
+
+Do not expect Claude's GitHub user to appear in the contributor graph here.
+That identity is on the private repo. Copying that history public would
+publish the stack.
+
 ## What ALEXUS is
 
 Agent infrastructure around a personal OS:
@@ -32,24 +46,6 @@ Not published on purpose:
 - Agent system prompts and slash-command definitions
 - Host paths, Tailscale addresses, port maps
 - `.env`, supervisor configs, live service lists
-
-If you need any of that, you already have access to the private tree.
-If you don't, you aren't supposed to.
-
-## Layout (private tree, for orientation only)
-
-```
-packages/    airtable-mcp, bridge, intent-executor, intent-mirror,
-             bots, voice-router, iphone-agent (plan only)
-apps/        portal, visual-continuity-engine
-agents/      prompts + workflow exports
-skills/      session lifecycle definitions
-docs/        audits and plans
-```
-
-Services and ports are resolved live on the host (`pm2`, `systemctl`,
-`docker ps`, `ss`). They are not pinned here so this file cannot go stale
-and still look authoritative.
 
 ## License
 
