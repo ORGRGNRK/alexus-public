@@ -12,12 +12,12 @@ starred without dumping the stack.
 
 ## Seats
 
-Built with three model seats plus the owner. See `CONTRIBUTORS.md`.
+Built by Chris with Claude, OpenAI (Codex / GPT), and Grok. All three model seats write code. See `CONTRIBUTORS.md`.
 
 - **Claude** — structure, reasoning, most of the private tree. Real git author on several private commits (`Claude <noreply@anthropic.com>`), Co-Authored-By on the rest.
 - **OpenAI (Codex / GPT)** — ops, auditor seat with no stake in the rule it is asked to bind, conveyor `codex` seat, thread-switch skill. Trailer `Co-Authored-By: Codex <noreply@openai.com>`.
 - **Grok** — market/momentum lane, and this public surface through the GitHub connector. Committer is the owner account. Trailer: `Co-Authored-By: Grok 4.6 <grok@x.ai>`.
-- **Chris** owns every merge and every machine.
+- **Chris** — builder, creator, and owner of ALEXUS. Decides what gets built, works through problems with the model seats, and owns every merge and every machine.
 
 Do not expect Claude or OpenAI GitHub users to appear in the contributor graph here. Those identities are on the private repo. Copying that history public would publish the stack.
 
@@ -46,4 +46,4 @@ Not published on purpose:
 
 ## License
 
-All rights reserved. See `LICENSE`.
+MIT License. See `LICENSE`.
