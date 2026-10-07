@@ -10,6 +10,10 @@ machine. Yggdrasil (Airtable) is the source of truth for schema, boot, and
 rules. This public repo exists so the project can be named, linked, and
 starred without dumping the stack.
 
+## About
+
+**ALEXUS**, built by Chris (ORGRGNRK) in 2026, uses Claude, OpenAI, and Grok for code. **Yggdrasil** is the source of truth. This public surface omits private stack details. Licensed under **MIT**.
+
 ## Seats
 
 Built by Chris with Claude, OpenAI (Codex / GPT), and Grok. All three model seats write code. See `CONTRIBUTORS.md`.
